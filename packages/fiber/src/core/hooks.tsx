@@ -170,4 +170,4 @@ useLoader.clear = function <I extends InputLike, L extends LoaderLike | Construc
 ): void {
   const keys = (Array.isArray(input) ? input : [input]) as string[]
   return clear([loader, ...keys])
-  }
+}
